@@ -7,11 +7,50 @@ Projeto completo de Business Intelligence desenvolvido a partir de dados da Copa
 ## 📸 Dashboards e Visualizações
 
 
-<img width="1435" height="799" alt="image" src="https://github.com/user-attachments/assets/74af56d3-179c-423e-96ef-f7bed0ab72dc" />
-<img width="1439" height="811" alt="image" src="https://github.com/user-attachments/assets/ae5ae5be-8471-408d-9661-cbe7b3020c39" />
-<img width="1413" height="786" alt="image" src="https://github.com/user-attachments/assets/84d757b0-356e-475d-a294-6381df075d09" />
-<img width="1440" height="758" alt="image" src="https://github.com/user-attachments/assets/0ddf1a93-1521-41f1-9a25-f20706a7e097" />
-<img width="1442" height="806" alt="image" src="https://github.com/user-attachments/assets/2e05fc01-8ed3-4916-9fbf-d6528fb9a912" />
+![Seleções - Tabela Geral](Seleções%20-%20Tabela%20Geral.png)
+
+<br>
+
+![Seleções - Detalhamento Finalizações](Seleções%20-%20Detalhamento%20Finalizações.png)
+
+<br>
+
+![Jogadores - Participação](Jogadores%20-%20Participação.png)
+
+<br>
+
+![Jogadores - Atributos dos Goleiros](Jogadores%20-%20Atributos%20dos%20Goleiros.png)
+
+<br>
+
+![Jogadores - Atributos de Defesa](Jogadores%20-%20Atributos%20de%20Defesa.png)
+
+<br>
+
+![Jogadores - Atributos de Ataque](Jogadores%20-%20Atributos%20de%20Ataque.png)
+
+<br>
+
+![Análise Exploratória - Seleções - Defesa - Ações Defensivas x Gols Sofridos](Análise%20Exploratória%20-%20Seleções%20-%20Defesa%20-%20Ações%20Defensivas%20x%20Gols%20Sofridos.png)
+
+<br>
+
+![Análise Exploratória - Seleções - Defesa - Ações Defensivas x Disciplina](Análise%20Exploratória%20-%20Seleções%20-%20Defesa%20-%20Ações%20Defensivas%20x%20Disciplina.png)
+
+<br>
+
+![Análise Exploratória - Seleções - Ataque e Defesa - xG Sofrido x xG Feito](Análise%20Exploratória%20-%20Seleções%20-%20Ataque%20e%20Defesa%20-%20xG%20Sofrido%20x%20xG%20Feito.png)
+
+<br>
+
+![Análise Exploratória - Jogadores - Defesa - Ações Defensivas x Disciplina](Análise%20Exploratória%20-%20Jogadores%20-%20Defesa%20-%20Ações%20Defensivas%20x%20Disciplina.png)
+
+<br>
+
+![Análise Exploratória - Jogadores - Ataque - xG x Gols Marcados](Análise%20Exploratória%20-%20Jogadores%20-%20Ataque%20-%20xG%20x%20Gols%20Marcados.png)
+
+<br>
+<br>
 
 
 
