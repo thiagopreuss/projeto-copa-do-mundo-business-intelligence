@@ -2,6 +2,8 @@
 
 Projeto completo de Business Intelligence desenvolvido a partir de dados da Copa do Mundo 2026, cobrindo todo o pipeline de dados: **extração automatizada (web scraping), tratamento/ETL, modelagem relacional, DAX e criação de dashboards interativos.**
 
+* **Artigo Completo:** [Clique aqui para ler a análise detalhada no LinkedIn](https://www.linkedin.com/pulse/o-que-aprendi-construindo-um-projeto-completo-de-business-preuss-dgdhf/?trackingId=a6AdigIGTKmA5OV%2FUfgcig%3D%3D)
+
 ---
 
 ## 📸 Dashboards e Visualizações
@@ -52,11 +54,6 @@ Projeto completo de Business Intelligence desenvolvido a partir de dados da Copa
 <br>
 <br>
 
-
-
-> 💡 **Artigo Completo no LinkedIn:** [Clique aqui para ler o artigo com a análise detalhada](https://www.linkedin.com/pulse/o-que-aprendi-construindo-um-projeto-completo-de-business-preuss-dgdhf/?trackingId=a6AdigIGTKmA5OV%2FUfgcig%3D%3D)
-
-> 📱 **Contato no Linkedin:** [Clique para acessar o perfil](https://www.linkedin.com/in/thiago-preuss-543aba78/)
 ---
 
 ## 🛠️ Tecnologias e Ferramentas Utilizadas
@@ -70,9 +67,47 @@ Projeto completo de Business Intelligence desenvolvido a partir de dados da Copa
 
 ## 📂 Estrutura do Repositório
 
-```text
-.
-├── python/
-│   └── extracao_dados.py              # Script automatizado de extração
-├── imagens/                           # Prints e relatórios do dashboard
-└── README.md                          # Documentação do projeto
+* 📄 **`extracao_dados.py`** — Script automatizado de web scraping com interface gráfica
+* 📝 **`README.md`** — Documentação e instruções do projeto
+* 🖼️ **`*.png`** — Imagens e capturas de tela dos dashboards
+  
+---
+
+## ⚙️ Como Executar o Script de Extração (`extracao_dados.py`)
+
+Para reproduzir a extração dos dados localmente na sua máquina, siga os passos:
+
+### 1. Pré-requisitos
+Crie uma pasta no seu computador para servir como diretório base do projeto. Dentro dela, crie **três arquivos Excel vazios** exatamente com os seguintes nomes:
+
+* `Copa do Mundo 2026 - Dados Principais.xlsx`
+* `Copa do Mundo 2026 - Dados Alternativos.xlsx`
+* `Copa do Mundo 2026 - Dados Alternativos_2.xlsx`
+
+### 2. Configuração do Script
+1. Abra o arquivo `extracao_dados.py`.
+2. Localize a variável `pasta_base` (linha 715 no script) e altere apenas o caminho para o diretório criado no **Passo 1**:
+
+`pasta_base = r"C:\CAMINHO_DA_SUA_PASTA"`
+
+> **Nota:** Não é necessário alterar o nome dos 3 arquivos no código; o script irá localizá-los e preenchê-los automaticamente.
+
+### 3. Execução e Interação com a Interface Gráfica
+1. Execute o script `extracao_dados.py` no seu ambiente Python (clicando em **Run / Play** na sua IDE de preferência, como PyCharm ou VS Code).
+2. Uma **janela gráfica (interface Tkinter)** será exibida solicitando os parâmetros da extração:
+   * **Quantidade de Jogos:** Informe o número de partidas que deseja analisar. A lista de jogos é ordenada cronologicamente (do mais recente para o mais antigo). O script fará a leitura de cima para baixo (ex: se digitar `10`, ele extrairá os 10 jogos mais recentes).
+   * **Número da Rodada:** Insira a rodada correspondente aos dados que estão sendo extraídos.
+
+> **Nota sobre o campo "Rodada":** O script atribui a rodada informada na janela a todos os jogos processados naquela execução batch. Caso execute a raspagem de múltiplos jogos de rodadas distintas em uma única etapa, este campo registrará o valor digitado para todos os registros no Excel, sendo necessária a edição pontual da coluna diretamente na planilha, se desejado.
+
+---
+
+## 📌 Fonte dos Dados e Observações
+* Os dados são provenientes de fontes públicas sobre futebol e estatísticas da Copa do Mundo.
+* O script foi construído especificamente para raspagem, padronização e estruturação automatizada dessas bases.
+
+---
+
+## ✉️ Contato
+
+* **Perfil / Contato:** [Conecte-se comigo no LinkedIn](https://www.linkedin.com/in/thiago-preuss-543aba78/)
