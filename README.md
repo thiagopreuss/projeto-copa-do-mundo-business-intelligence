@@ -67,9 +67,10 @@ Projeto completo de Business Intelligence desenvolvido a partir de dados da Copa
 
 ## 📂 Estrutura do Repositório
 
-* 📄 **`extracao_dados.py`** — Script automatizado de web scraping com interface gráfica
+* 🖼️ **`imagens** — Imagens e capturas de tela dos dashboards
+* 📄 **`python/extracao_dados.py`** — Script automatizado de web scraping com interface gráfica
 * 📝 **`README.md`** — Documentação e instruções do projeto
-* 🖼️ **`*.png`** — Imagens e capturas de tela dos dashboards
+
   
 ---
 
