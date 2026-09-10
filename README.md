@@ -9,7 +9,7 @@ Projeto completo de Business Intelligence desenvolvido a partir de dados da Copa
 ## 📸 Dashboards e Visualizações
 
 
-![Seleções - Tabela Geral](Seleções%20-%20Tabela%20Geral.png)
+![Seleções - Tabela Geral](imagens/Seleções%20-%20Tabela%20Geral.png)
 
 <br>
 
